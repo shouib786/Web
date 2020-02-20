@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="css_grid.css" rel ="stylesheet" type="text/css">        
+        <link href = "style.css" rel = "stylesheet" type="text/css">
+        <title>Log in</title>
+    </head>
+
+    <body>
+        
+            <div class= container>
+                    <!--------------------------------------Header------------------------------>
+                      <header>          
+                        <div class = logo> 
+                                <a href= "Index2.html"> 
+                                <img src="Images/A..PNG"  
+                                    style ="width:250px;
+                                            height:250px;">
+                                </a>
+                                </div>
+                      </header> 
+                   
+                        <!--The navigation bar-->
+                        <nav>
+                            <ul>
+                                <li><a href  = "index.php"> Home</a></li>
+                                <li><a href="browse.php"> Browse</a></li>
+                                <li><a href="order_history.php">Order History</a></li>
+                            </ul> 
+                        </nav>
+        
+        
+                        <!--"Basket" and "Sign in/Log in" box on the rigt of header-->
+                        <div class = nested>
+                        <div class = basket>
+                            <a href  = "Basket.html"> 
+                            <img src = "Images/shopping-cart.PNG"></a>
+                        </div>
+        
+                        <div class = sign>
+                                <a href  = "login.html">Login</a>
+                                <a href  = "registration.html">Sign up</a>
+                        </div>
+                        </div>
+                        
+                     <!---------------------------------------------------------------------------->
+         
+
+                    <!------------Signing in-------------->        
+                        
+                            <div class = "loginbox">
+                                <form action="login.php" method="post">
+                                    <h1>Login</h1><br>
+
+                                    
+                                    Email: <input type="email" name="email" required>
+                                    Password: <input type="password" name="password">
+                                    <input type="submit">
+
+
+                                </form>
+                                    
+                                <p>New?<a href="registration.html"><br>Sign up here</a></p>
+                            
+                            </div>                     
+<!----------------------------------------------------------------------------------------->
+<footer>
+        <p id = contacts>Contacts <br>
+           07411602902 <br>
+           shouib.a786@gmail.com<br></p>
+       <p id = T&C>
+           Terms and Condtion
+       </p>    
+       <p id = Policy>
+           Cookie Policy
+       </p>
+       
+       Copyright &copy; 2019 Shouib Ahmadi
+      
+   </footer>     
+    
+</div>
+
+    </body>
+
+</html>
